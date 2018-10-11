@@ -20,9 +20,8 @@ RUN    apt-get update \
         clang-7 \
         clang-tools-7 \
         clang-format-7 \
-        gcc-8.2 \
-        g++-8.2 \
-        gcc-8.2-base \
+        gcc-8 \
+        g++-8 \
         qt5-default \
         qtdeclarative5-dev \
         qtdeclarative5-dev-tools \
