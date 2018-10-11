@@ -20,6 +20,7 @@ RUN    apt-get update \
         clang-7 \
         clang-tools-7 \
         clang-format-7 \
+        clang-tidy-7 \
         gcc-8 \
         g++-8 \
         qt5-default \
