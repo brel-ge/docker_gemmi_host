@@ -27,5 +27,6 @@ RUN    apt-get update \
         qtdeclarative5-dev \
         qtdeclarative5-dev-tools \
         libboost-dev \
+        libudev-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* 
