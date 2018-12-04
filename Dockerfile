@@ -26,6 +26,8 @@ RUN    apt-get update \
         qt5-default \
         qtdeclarative5-dev \
         qtdeclarative5-dev-tools \
+        qtquickcontrols2 \
+        qml-module-qtquick.controls2 \
         libboost-dev \
         libudev-dev \
     && apt-get clean \
