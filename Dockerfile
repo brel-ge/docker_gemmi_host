@@ -31,8 +31,8 @@ RUN    apt-get update \
         libboost-dev \
         libudev-dev \
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* 
-    && wget ftp://ftp1.digi.com/support/digiembeddedyocto/2.4/r1/sdk/ccimx6sbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh
-    && chmod +x dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh
-    && ./dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh -y
-    && rm -rf dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh
+    && rm -rf /var/lib/apt/lists/*  \
+    && wget ftp://ftp1.digi.com/support/digiembeddedyocto/2.4/r1/sdk/ccimx6sbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh \
+    && chmod +x dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh \
+    && ./dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh -y \
+    && rm -rf dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh \
