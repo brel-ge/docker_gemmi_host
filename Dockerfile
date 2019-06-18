@@ -30,6 +30,9 @@ RUN    apt-get update \
         qml-module-qtquick.controls2 \
         libboost-dev \
         libudev-dev \
+        libgstreamer1.0-0 \
+        gstreamer1.0-plugins-base \
+        pkg-config \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*  \
     && wget ftp://ftp1.digi.com/support/digiembeddedyocto/2.4/r1/sdk/ccimx6sbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa9hf-neon-toolchain-2.4-r1.sh \
